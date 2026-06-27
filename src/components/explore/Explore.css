@@ -1,0 +1,34 @@
+.explore {
+  background: #fdf4eb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px;
+}
+
+.text {
+  width: 40%;
+}
+
+.text h2 {
+  color: #3d6407;
+  font-size: 50px;
+  line-height: 1.2;
+}
+
+.text p {
+  margin: 20px 0;
+  color: gray;
+}
+
+.text button {
+  padding: 15px 35px;
+  border: none;
+  background: #3d6407;
+  color: white;
+  border-radius: 30px;
+}
+
+.image img {
+  width: 500px;
+}

@@ -1,0 +1,38 @@
+
+.hero-right {
+  width: 45%;
+  position: relative;
+}
+
+.plate {
+  width: 420px;
+}
+
+.card {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  background: white;
+  padding: 15px 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .1);
+}
+
+.card h3 {
+  color: orange;
+  font-size: 30px;
+}
+
+.leaf1 {
+  width: 130px;
+  position: absolute;
+  left: -70px;
+  top: 20px;
+}
+
+.leaf2 {
+  width: 130px;
+  position: absolute;
+  right: -20px;
+  top: 30px;
+}
