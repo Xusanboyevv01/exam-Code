@@ -25,19 +25,15 @@ function Profile() {
           <button>Contact</button>
         </div>
       </header>
+<div className="bg">
 
-      <section
-        className="profile-hero"
-        style={{ backgroundImage: `url(${Bg})` }}
-      >
+<img src={Bg} alt="" />
+</div>
         <div className="overlay">
           <h1>User Profile</h1>
-          <p>
-            Home <span>/</span> User Profile
-          </p>
+
         </div>
 
-      </section>
     </>
   );
 }

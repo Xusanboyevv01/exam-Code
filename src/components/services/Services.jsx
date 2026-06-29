@@ -1,13 +1,16 @@
 import React from 'react'
 import './Services.css'
 import Chef from '../../assets/background.png'
+import icon from '../../assets/icon.png'
+import iconPhone from '../../assets/iconPhone.png'
+import soat from '../../assets/soat.png'
 function Services() {
   return (
     <div>
       <section className="services">
 
   <div className="service-card active">
-    <div className="icon">🍴</div>
+    <div className="icon"><img src={icon} alt="" /></div>
     <h3>Wide selection of restaurants</h3>
     <p>
       Lorem ipsum dolor sit amet consectetur. Ornare massa nunc nibh tristique.
@@ -15,7 +18,7 @@ function Services() {
   </div>
 
   <div className="service-card">
-    <div className="icon">☕</div>
+    <div className="icon"><img src={iconPhone} alt="" /></div>
     <h3>Easy ordering process</h3>
     <p>
       Lorem ipsum dolor sit amet consectetur. Ornare massa nunc.
@@ -23,7 +26,7 @@ function Services() {
   </div>
 
   <div className="service-card">
-    <div className="icon">🕒</div>
+    <div className="icon"><img src={soat} alt="" /></div>
     <h3>Fast delivery within 20 min</h3>
     <p>
       Lorem ipsum dolor sit amet consectetur. Ornare massa nunc nibh.
