@@ -1,23 +1,27 @@
-import React from 'react'
-import Header from './components/Header/Header'
-import Hero from './components/hero/Hero'
-import Explore from './components/explore/Explore'
-import Services from './components/services/Services'
-import Faq from './components/faq/Faq'
-import Download from './components/download/Download'
-import Footer from './components/Footer/Footer'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./Pages/Home/Home";
+import About from "./Pages/About/About";
+import Blog from "./Pages/Blog/Blog";
+import Faq from "./Pages/Faq/Faq";
+import Map from "./Pages/Map/Map";
+import Cart from "./Pages/Cart/Cart";
+import Profile from './Pages/Profile/Profile'
+import Error from "./Pages/error/Error";
 function App() {
   return (
-    <div>
-      <Header />
-      <Hero />
-      <Explore />
-      <Services />
-      <Faq />
-      <Download />
-      <Footer />
-    </div>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/faq" element={<Faq />} />
+        <Route path="/map" element={<Map />} />
+        <Route path="/cart" element={<Cart />} />
+        <Route path="/profile" element={<Profile />} />
+        <Route path="*" element={<Error />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;

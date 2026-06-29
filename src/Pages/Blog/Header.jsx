@@ -11,13 +11,15 @@ function Header() {
         </div>
 
     <ul>
-      <Link to={"/"}>Home</Link>
-      <Link to={"about"}>About</Link>
-      <Link to={"blog"}>Blog</Link>
-      <Link to={'faq'}>Faq</Link>
-      <Link to={'map'}>Map</Link>
-      <Link to={'cart'}>Cart</Link>
-      <Link to={'profile'}>Profile</Link>
+<ul>
+  <Link to="/">Home</Link>
+  <Link to="/about">About</Link>
+  <Link to="/blog">Blog</Link>
+  <Link to="/faq">Faq</Link>
+  <Link to="/map">Map</Link>
+  <Link to="/cart">Cart</Link>
+  <Link to="/profile">Profile</Link>
+</ul>
     </ul>
 
         <div className="right">

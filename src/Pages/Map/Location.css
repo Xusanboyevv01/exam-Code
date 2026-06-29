@@ -1,0 +1,29 @@
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 70px;
+  box-sizing: border-box;
+
+  background: white;
+  z-index: 1000;
+}
+
+.location {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.location iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}

@@ -29,7 +29,6 @@ body {
 
 .navbar ul {
   display: flex;
-  list-style: none;
   gap: 40px;
 }
 
@@ -56,7 +55,6 @@ body {
 .left h1 {
   font-size: 60px;
   color: #3d6407;
-  line-height: 1.2;
 }
 
 .left p {
@@ -72,15 +70,14 @@ body {
 .search input {
   width: 350px;
   padding: 15px;
+  border: 1px solid #ddd;
   border-radius: 30px 0 0 30px;
-  outline: none;
 }
 
 .search button {
   padding: 15px 35px;
   background: #3d6407;
   color: white;
-  border: none;
   border-radius: 0 30px 30px 0;
 }
 
