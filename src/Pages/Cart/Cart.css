@@ -7,7 +7,6 @@
   position: relative;
 }
 
-/* Header rasm ustida */
 .navbar {
   position: absolute;
   top: 0;
@@ -21,8 +20,7 @@
   justify-content: space-between;
   align-items: center;
 
-  background: transparent; /* oq bo'lsa white yoz */
-  z-index: 100;
+  background: transparent; 
 }
 
 .cart-overlay {
