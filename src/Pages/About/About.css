@@ -1,49 +1,37 @@
-.navbar {
-  position: absolute;
-  top: 0;
-  left: 0;
+.about-banner {
   width: 100%;
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  padding: 20px 80px;
-  background: transparent; 
-  background: #fff;
-  background: transparent;
-}
-
-.about-hero {
-  width: 100%;
-  height: 300px;
+  height: 320px;
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-
   display: flex;
   justify-content: center;
   align-items: center;
-
-  position: relative;
 }
 
 .about-overlay {
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.45);
 
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
 }
 
-.about-overlay h1,
+.about-overlay h1 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
 .about-overlay p {
   color: white;
+  font-size: 18px;
 }
 
-.green {
-  color: #39db4a;
+.about-overlay span {
+  color: #65b741;
+  margin: 0 5px;
 }

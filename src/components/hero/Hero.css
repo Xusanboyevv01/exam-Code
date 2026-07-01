@@ -1,38 +1,91 @@
-
-.hero-right {
-  width: 45%;
-  position: relative;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.plate {
-  width: 420px;
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 8%;
 }
 
-.card {
-  position: absolute;
-  top: 0;
-  left: 20px;
-  background: white;
-  padding: 15px 25px;
-  border-radius: 12px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, .1);
+.left{
+    width: 45%;
 }
 
-.card h3 {
-  color: orange;
-  font-size: 30px;
+.left h1{
+    font-size: 60px;
+    line-height: 1.2;
 }
 
-.leaf1 {
-  width: 130px;
-  position: absolute;
-  left: -70px;
-  top: 20px;
+.left p{
+    margin: 25px 0;
+    color: #666;
+    font-size: 20px;
 }
 
-.leaf2 {
-  width: 130px;
-  position: absolute;
-  right: -20px;
-  top: 30px;
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.search input{
+    width: 280px;
+    height: 50px;
+    padding: 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px 0 0 8px;
+    outline: none;
+}
+
+.search button{
+    height: 50px;
+    padding: 0 25px;
+    border: none;
+    background: #6ea820;
+    color: white;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+}
+
+.hero-right{
+    width:45%;
+    position:relative;
+}
+
+.plate{
+    width:420px;
+}
+
+.card{
+    position:absolute;
+    top:40px;
+    left:-30px;
+    background:#fff;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 10px 20px rgba(0,0,0,.1);
+}
+
+.card h3{
+    color:orange;
+    font-size:35px;
+}
+
+.leaf1{
+    width:120px;
+    position:absolute;
+    left:-70px;
+    top:120px;
+}
+
+.leaf2{
+    width:120px;
+    position:absolute;
+    right:-20px;
+    top:50px;
 }

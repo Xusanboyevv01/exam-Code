@@ -1,23 +1,36 @@
 import "./Eror.css";
 import Error from "../../assets/hato.png";
-import { Link } from "react-router-dom";
-function Eror() {
+import Banner from "../../assets/fruits.png";
+import Header from "../../components/Header/Header";
+import Footer from '../../components/Footer/Footer'
+function NotFound() {
   return (
-    <section className="notfound">
-      <img src={Error} alt="404" />
+    <>
+    <Header />
+      {/* Banner */}
+      <section
+        className="notfound-banner"
+        style={{ backgroundImage: `url(${Banner})` }}
+      >
+        <div className="banner-overlay"></div>
+      </section>
 
-      <h1>Oops! page not found</h1>
+      {/* 404 */}
+      <section className="error-section">
+        <img src={Error} alt="404" />
 
-      <p>
-        Ut consequat ac tortor eu vehicula. Aenean accumsan purus eros.
-        Maecenas sagittis tortor at metus mollis.
-      </p>
+        <h2>Oops! page not found</h2>
 
-      <Link to="/">
-        <button>Back to Home</button>
-      </Link>
-    </section>
+        <p>
+          It consequat do tortor eu vehicula. Aenean accumsan purus eros.
+          Maecenas sagittis tortor et metus mollis.
+        </p>
+
+        <button>Back To Home</button>
+      </section>
+      <Footer />
+    </>
   );
 }
 
-export default Eror;
+export default NotFound;

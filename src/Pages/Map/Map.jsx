@@ -1,28 +1,11 @@
 import "./Location.css";
 import { Link } from "react-router-dom";
+import '../../components/Header/Header'
+import Header from "../../components/Header/Header";
 function Location() {
   return (
       <div>
-            <header className="navbar">
-        <div className="logo">
-          <h1>F</h1>
-          <h2>OODI</h2>
-        </div>
-
-    <ul>
-      <Link to={"/"}>Home</Link>
-      <Link to={"/about"}>About</Link>
-      <Link to={"/blog"}>Blog</Link>
-      <Link to={'/faq'}>Faq</Link>
-      <Link to={'/map'}>Map</Link>
-      <Link to={'/cart'}>Cart</Link>
-      <Link to={'/profile'}>Profile</Link>
-    </ul>
-
-        <div className="right">
-          <button>Contact</button>
-        </div>
-      </header>
+<Header />
     <section className="location">
 
       <iframe

@@ -1,16 +1,19 @@
-.blog-hero {
+.blog-banner {
   width: 100%;
-  height: 230px;
+  height: 220px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .blog-overlay {
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.35);
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.25);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,7 +21,7 @@
 
 .blog-overlay h1 {
   color: #fff;
-  font-size: 52px;
-  font-weight: 700;
+  font-size: 42px;
   font-style: italic;
+  font-weight: 700;
 }
